@@ -1,7 +1,7 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
 import Avatar from '@mui/material/Avatar';
-import avatar from './avatar.png';
+import avatar from '@modules/common/img/avatar.png';
 
 const useStyles = createUseStyles({
     wrapper: {

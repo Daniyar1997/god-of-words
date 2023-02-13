@@ -7,7 +7,6 @@ const useStyles = createUseStyles({
     }
 })
 
-
 export default function Folder() {
     const jss = useStyles();
 
