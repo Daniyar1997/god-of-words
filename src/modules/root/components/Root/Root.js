@@ -1,10 +1,15 @@
 import React from 'react';
-import Profile from '../Profile/Profile';
-import ProfileInfo from '../ProfileInfo/ProfileInfo';
-import Navigation from '../Navigation/Navigation';
-import Module from '../Module/Module';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+import Profile from '../../modules/root/components/Profile/Profile';
+import ProfileInfo from '../../modules/root/components/ProfileInfo/ProfileInfo';
+import Navigation from '../../modules/root/components/Navigation/Navigation';
+import Module from '../../modules/module/components/Module/Module';
 import Folder from '../Folder/Folder';
-import Course from '../Course/Course';
+import Course from '../../modules/course/components/Course/Course';
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
@@ -25,12 +30,21 @@ const useStyles = createUseStyles({
   }
 })
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <div>Hello world!</div>,
+  },
+]);
+
+
+
 function App() {
   const jss = useStyles();
 
   return (
     <>
-      <div className={jss.wrapperTop}>
+      {/* <div className={jss.wrapperTop}>
         <Profile />
       </div>
       <div className={jss.wrapperMid}>
@@ -39,7 +53,8 @@ function App() {
         <Module />
         <Folder />
         <Course />
-      </div>
+      </div> */}
+        <RouterProvider router={router} />
     </>
   );
 }
