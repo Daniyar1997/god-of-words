@@ -1,0 +1,67 @@
+Date : 2023-02-17 21:45:44
+Directory : c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src
+Total : 16 files,  331 codes, 4 comments, 41 blanks, all 376 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         15 |        319 |          4 |         39 |        362 |
+| CSS        |          1 |         12 |          0 |          2 |         14 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         16 |        331 |          4 |         41 |        376 |
+| . (Files)                                                                                                            |          4 |         80 |          4 |         13 |         97 |
+| @modules                                                                                                             |         11 |        233 |          0 |         27 |        260 |
+| @modules\common                                                                                                      |          2 |         59 |          0 |          6 |         65 |
+| @modules\common\components                                                                                           |          2 |         59 |          0 |          6 |         65 |
+| @modules\common\components\Profile                                                                                   |          1 |         18 |          0 |          3 |         21 |
+| @modules\common\components\ProfileInfo                                                                               |          1 |         41 |          0 |          3 |         44 |
+| @modules\course                                                                                                      |          1 |         16 |          0 |          4 |         20 |
+| @modules\course\components                                                                                           |          1 |         16 |          0 |          4 |         20 |
+| @modules\course\components\Course                                                                                    |          1 |         16 |          0 |          4 |         20 |
+| @modules\error                                                                                                       |          1 |         14 |          0 |          2 |         16 |
+| @modules\error\components                                                                                            |          1 |         14 |          0 |          2 |         16 |
+| @modules\error\components\ErrorPage                                                                                  |          1 |         14 |          0 |          2 |         16 |
+| @modules\folder                                                                                                      |          1 |         16 |          0 |          3 |         19 |
+| @modules\folder\components                                                                                           |          1 |         16 |          0 |          3 |         19 |
+| @modules\folder\components\Folder                                                                                    |          1 |         16 |          0 |          3 |         19 |
+| @modules\module                                                                                                      |          4 |         95 |          0 |         10 |        105 |
+| @modules\module (Files)                                                                                              |          1 |          4 |          0 |          1 |          5 |
+| @modules\module\components                                                                                           |          3 |         91 |          0 |          9 |        100 |
+| @modules\module\components\ModuleCreate                                                                              |          1 |         56 |          0 |          3 |         59 |
+| @modules\module\components\ModuleView                                                                                |          1 |         24 |          0 |          4 |         28 |
+| @modules\module\components\ModuleWrapper                                                                             |          1 |         11 |          0 |          2 |         13 |
+| @modules\root                                                                                                        |          2 |         33 |          0 |          2 |         35 |
+| @modules\root\components                                                                                             |          2 |         33 |          0 |          2 |         35 |
+| @modules\root\components\Index                                                                                       |          1 |          7 |          0 |          0 |          7 |
+| @modules\root\components\Root                                                                                        |          1 |         26 |          0 |          2 |         28 |
+| data                                                                                                                 |          1 |         18 |          0 |          1 |         19 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                             | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\common\components\ProfileInfo\ProfileInfo.js     | JavaScript |         41 |          0 |          3 |         44 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\common\components\Profile\Profile.js             | JavaScript |         18 |          0 |          3 |         21 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\course\components\Course\Course.js               | JavaScript |         16 |          0 |          4 |         20 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\error\components\ErrorPage\ErrorPage.js          | JavaScript |         14 |          0 |          2 |         16 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\folder\components\Folder\Folder.js               | JavaScript |         16 |          0 |          3 |         19 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\module\components\ModuleCreate\ModuleCreate.js   | JavaScript |         56 |          0 |          3 |         59 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\module\components\ModuleView\ModuleView.js       | JavaScript |         24 |          0 |          4 |         28 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\module\components\ModuleWrapper\ModuleWrapper.js | JavaScript |         11 |          0 |          2 |         13 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\module\module.js                                 | JavaScript |          4 |          0 |          1 |          5 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\root\components\Index\Index.js                   | JavaScript |          7 |          0 |          0 |          7 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\@modules\root\components\Root\Root.js                     | JavaScript |         26 |          0 |          2 |         28 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\data\modules.js                                           | JavaScript |         18 |          0 |          1 |         19 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\index.css                                                 | CSS        |         12 |          0 |          2 |         14 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\index.js                                                  | JavaScript |         55 |          0 |          8 |         63 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\reportWebVitals.js                                        | JavaScript |         12 |          0 |          2 |         14 |
+| c:\Users\Daniyar\Desktop\Frontend\7 React\god-of-words\src\setupTests.js                                             | JavaScript |          1 |          4 |          1 |          6 |
+| Total                                                                                                                |            |        331 |          4 |         41 |        376 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

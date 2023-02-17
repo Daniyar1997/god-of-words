@@ -10,6 +10,7 @@ import Root from '@modules/root/components/Root/Root';
 import Index from '@modules/root/components/Index/Index';
 import ErrorPage from '@modules/error/components/ErrorPage/ErrorPage';
 
+import ModuleWrapper from '@modules/module/components/ModuleWrapper/ModuleWrapper';
 import ModuleView from '@modules/module/components/ModuleView/ModuleView';
 import ModuleCreate from './@modules/module/components/ModuleCreate/ModuleCreate';
 
@@ -23,9 +24,6 @@ const router = createBrowserRouter([
     {
         element: <Root />,
         path: "/",
-        loader: () => {
-            return { path: 'module' };
-        },
         errorElement: <ErrorPage />,
         children: [
             {
@@ -33,15 +31,20 @@ const router = createBrowserRouter([
                 element: <Index />,
             },
             {
-                element: <ModuleView />,
+                element: <ModuleWrapper />,
                 path: 'module',
                 children: [
                     {
+                        element: <ModuleView />,
+                        path: 'view',
+                    },
+                    {
                         element: <ModuleCreate />,
                         path: 'create'
-                    }
+                    },
                 ]
             },
+
             {
                 element: <Folder />,
                 path: 'folder',

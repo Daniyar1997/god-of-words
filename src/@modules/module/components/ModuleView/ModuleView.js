@@ -1,10 +1,11 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
-import { Form, Outlet, redirect } from 'react-router-dom';
+import modules from 'data/modules';
 
 const useStyles = createUseStyles({
     wrapper: {
-        backgroundColor: '#459FE8'
+        padding: '10px',
+        border: '1px solid green',
     }
 })
 
@@ -13,12 +14,15 @@ export default function Module() {
     const jss = useStyles();
 
     return (
-        <>
-            <Form method="get" action="create" >
-                <button type="submit">Создать</button>
-            </Form>
-            <Outlet />
-        </>
-
+        <div className={jss.wrapper}>
+            { modules.length && modules.map( item => {
+                return (
+                    <div key={item.id}>
+                        <h2>{item.name}</h2>
+                        <p>{item.description}</p>
+                    </div>
+                )
+            })}
+        </div>
     )
 }
